@@ -14,8 +14,8 @@ class Sale(models.Model):
     product_category = models.CharField(max_length=100)
     product_name = models.CharField(max_length=100)
     product_detail = models.TextField()
-    created_at = models.DateTimeField(default=timezone.now)
-    updated_at = models.DateTimeField(default=timezone.now)
+    # created_at = models.DateTimeField(default=timezone.now)
+    # updated_at = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return f"Transaction ID: {self.transaction_id}, Date: {self.transaction_date}, Time: {self.transaction_time}"

@@ -86,14 +86,13 @@ WSGI_APPLICATION = 'drt.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'hai-cafe-db',
+        'NAME': 'bear-cafe-db',
         'USER': 'haiadmin',
         'PASSWORD': 'Az@123456',
-        'HOST': 'hai-cafe-db-server.database.windows.net',
+        'HOST': 'bear-cafe-db-server.database.windows.net',
         'PORT': '1433',
 
         'OPTIONS': {
